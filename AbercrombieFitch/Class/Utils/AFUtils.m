@@ -28,6 +28,7 @@ CGFloat const button_height = 40;
     return self;
 }
 
+// Apply shop button theme
 +(void)applyButtonThemeToButton:(UIButton*)button {
     if (!button) {
         return;
@@ -52,7 +53,7 @@ CGFloat const button_height = 40;
     return [UIColor darkGrayColor];
 }
 
-
+// Make center HTML string in webview
 + (NSString *) createWebHTMLWithText:(NSString *)text {
     
     //create the string

@@ -27,6 +27,7 @@
 
 #pragma mark - Helper
 
+// Load the given url into webview
 - (void) loadWebview {
     NSURL *url = [NSURL URLWithString:_webURL];
     NSURLRequest *request = [NSURLRequest requestWithURL:url];

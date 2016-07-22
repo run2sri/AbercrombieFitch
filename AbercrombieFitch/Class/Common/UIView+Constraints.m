@@ -18,6 +18,7 @@
 }
 */
 
+// Easy way to get width of the View
 - (CGFloat)width {
     return self.frame.size.width;
 }
@@ -27,6 +28,7 @@
     self.frame = frame;
 }
 
+// Easy way to get height of the View
 - (CGFloat)height {
     return self.frame.size.height;
 }
@@ -37,10 +39,13 @@
     self.frame = frame;
 }
 
+// Easy way to adding borders using layer
 -(void) addBorderWidth:(CGFloat) width color:(UIColor*) color {
     self.layer.borderColor = color.CGColor;
     self.layer.borderWidth = width;
 }
+
+// Search given attribute from view constraints 
 
 - (NSArray *)constraintsForAttribute:(NSLayoutAttribute)attribute
 {
@@ -59,6 +64,7 @@
     return filteredConstraints;
 }
 
+// Get constraints of views for provided attribute of the object
 - (NSLayoutConstraint *)firstConstraintForAttribute:(NSLayoutAttribute)attribute
 {
     NSArray *constraints = [self constraintsForAttribute:attribute];

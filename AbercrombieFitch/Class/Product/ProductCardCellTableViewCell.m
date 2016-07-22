@@ -40,6 +40,7 @@
     // Configure the view for the selected state
 }
 
+// Configure the view for normal state
 - (void) configureCellAtIndexPath:(NSIndexPath *)indexPath withProduct:(ProductCard *)product {
     NSLog(@"Indexpath row %ld",(long)indexPath.row);
     _productCard = product;
@@ -70,10 +71,14 @@
     [self layoutIfNeeded];
 }
 
+// IBAction for shop button, it will notify to main view controller
+
 - (void) shopButtonPressed:(UIButton *)sender {
     NSInteger index = sender.tag;
     [_delegate loadURL:[_productCard getButtonTargetURLAtIndex:index]];
 }
+
+// Load bottom descript in webview
 
 - (void) loadBottomDescriptionWithText:(NSString *)webText {
     _bottomDescription.delegate = self;
@@ -81,6 +86,8 @@
     _bottomDescription.scrollView.bounces = NO;
     [_bottomDescription loadHTMLString:[AFUtils createWebHTMLWithText:webText] baseURL:nil];
 }
+
+// If the value is not present for object,it will set heoght 0 and hide the subview object of cell
 
 - (void) privateLayoutSubviews {
     
@@ -141,6 +148,11 @@
         _shopButtonView.hidden = YES;
         shopViewHeightConstraint.constant = 0;
     }
+}
+
+// Apply theme object for each object
+- (void) applyThemeForSubviews {
+    
 }
 
 #pragma mark - webview delegate

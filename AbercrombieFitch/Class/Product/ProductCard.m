@@ -39,6 +39,8 @@
     return self;
 }
 
+#pragma mark - Product Model Properties
+
 -(NSString *)title {
     return _productCardRecords[TITLE];
 }
@@ -80,6 +82,7 @@
     return _bgImage;
 }
 
+// Load background Image in background and assigned object. if more value, will be stored into Coredata
 - (void) loadBackgroundImage {
     if (self.backgroundImageUrl) {
         SDWebImageDownloader *downloader = [SDWebImageDownloader sharedDownloader];
@@ -95,6 +98,8 @@
                                }];
     }
 }
+
+// Calculating Cell height based properties and background image size
 
 - (CGFloat) heightForTableViewCell {
     
