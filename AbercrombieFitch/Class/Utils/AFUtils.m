@@ -14,6 +14,9 @@ NSString* const AFProductDataLoaded = @"ProductDataLoaded";
 NSString* const AFMainStoryboardName = @"Main";
 NSString* const AFWebStoryIdentifier = @"afwebview";
 
+NSString * const ProductCardCellIdentifier = @"ProductCardCellIdentifier";
+NSString * const NoProductCardCellIdentifier = @"NoProductCardCellIdentifier";
+
 CGFloat const spacing_10 = 10;
 CGFloat const spacing_5 = 5;
 CGFloat const label_height = 25;

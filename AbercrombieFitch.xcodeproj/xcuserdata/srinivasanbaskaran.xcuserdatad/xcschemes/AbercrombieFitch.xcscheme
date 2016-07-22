@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "15DAF9EA1D3EB1B000DE6389"
-               BuildableName = "AbercrombieFitch.app"
+               BuildableName = "A&amp;F.app"
                BlueprintName = "AbercrombieFitch"
                ReferencedContainer = "container:AbercrombieFitch.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15DAF9EA1D3EB1B000DE6389"
-            BuildableName = "AbercrombieFitch.app"
+            BuildableName = "A&amp;F.app"
             BlueprintName = "AbercrombieFitch"
             ReferencedContainer = "container:AbercrombieFitch.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15DAF9EA1D3EB1B000DE6389"
-            BuildableName = "AbercrombieFitch.app"
+            BuildableName = "A&amp;F.app"
             BlueprintName = "AbercrombieFitch"
             ReferencedContainer = "container:AbercrombieFitch.xcodeproj">
          </BuildableReference>
@@ -85,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "15DAF9EA1D3EB1B000DE6389"
-            BuildableName = "AbercrombieFitch.app"
+            BuildableName = "A&amp;F.app"
             BlueprintName = "AbercrombieFitch"
             ReferencedContainer = "container:AbercrombieFitch.xcodeproj">
          </BuildableReference>

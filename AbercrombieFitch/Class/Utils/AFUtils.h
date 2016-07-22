@@ -14,6 +14,8 @@ extern NSString *const AFProductDataServerURL;
 extern NSString *const AFProductDataLoaded;
 extern NSString* const AFMainStoryboardName;
 extern NSString* const AFWebStoryIdentifier;
+extern NSString * const ProductCardCellIdentifier;
+extern NSString * const NoProductCardCellIdentifier;
 
 extern CGFloat const spacing_10;
 extern CGFloat const spacing_5;

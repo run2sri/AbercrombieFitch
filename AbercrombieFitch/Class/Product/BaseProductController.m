@@ -17,14 +17,9 @@
 
 #pragma mark - @class : BaseProductController
 
-NSString * ProductCardCellIdentifier = @"ProductCardCellIdentifier";
-NSString * NoProductCardCellIdentifier = @"NoProductCardCellIdentifier";
-
 @class ProductCard;
 
 @interface BaseProductController () <ProducrCardDelegate>
-
-@property (nonatomic, weak) IBOutlet UITableView * tableView;
 @property (nonatomic, strong) NSArray *productCardRecords;
 @property (nonatomic, strong) ProductCard *productCard;
 

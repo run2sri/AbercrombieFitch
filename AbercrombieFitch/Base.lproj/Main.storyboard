@@ -9,7 +9,7 @@
         <!--A&F-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ProductHomeViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProductCardCellIdentifier" id="BYZ-38-t0r" customClass="ProductHomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -26,7 +26,7 @@
                                         <rect key="frame" x="0.0" y="28" width="600" height="435"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KCv-hz-9uE" id="MLy-jH-w2I">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="434.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="435"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eaZ-q6-Ng1" userLabel="backgroundimage">

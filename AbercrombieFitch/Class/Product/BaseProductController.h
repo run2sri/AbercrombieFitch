@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-extern NSString * ContactInfoRecordCellIdentifier;
-extern NSString * ContactInfoAlertCellIdentifier;
-
 @interface BaseProductController : UIViewController
-
+@property (nonatomic, weak) IBOutlet UITableView * tableView;
 @end
